@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Lab.LR_4.test.UniversityTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.072 s <<< FAILURE! - in Lab.LR_4.test.UniversityTest
+Lab.LR_4.test.UniversityTest.testUniversitySerialization  Time elapsed: 0.06 s  <<< ERROR!
+java.lang.RuntimeException: Unable to invoke no-args constructor for class Lab.LR_4.model.Human. Registering an InstanceCreator with Gson for this type may fix this problem.
+	at Lab.LR_4.test.UniversityTest.testUniversitySerialization(UniversityTest.java:51)
+Caused by: java.lang.UnsupportedOperationException: Abstract class can't be instantiated! Class name: Lab.LR_4.model.Human
+	at Lab.LR_4.test.UniversityTest.testUniversitySerialization(UniversityTest.java:51)
+
